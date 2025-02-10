@@ -1,10 +1,11 @@
  class Calculator{
     public int add(int a, int b){
         return a+b;
-
-
     }
 
+    public int substract(int a, int b){
+        return a-b;
+    }
     
 }
 
@@ -15,5 +16,6 @@ public class CalculatorTest {
         
         Calculator calculator = new Calculator();
         System.out.println("Result : "+calculator.add(20, 40));
+        System.out.println("Result : "+calculator.substract(20, 40));
     }
 }
